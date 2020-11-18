@@ -177,7 +177,7 @@ a.bar-value {
 
 body{
   
-background-image: linear-gradient( 110deg ,cyan,lime,cyan);
+background-image: linear-gradient( 110deg ,cyan,orange,black);
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
