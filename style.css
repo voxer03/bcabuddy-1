@@ -244,7 +244,7 @@ tr:nth-child(even) {
 }
 .card .card-items .social a {
   text-decoration: none;
-  padding: 30px;
+  padding: 5px;
   color: #ededed;
 }
 
