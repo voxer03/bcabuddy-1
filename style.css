@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+/*
+#f1d18a yellow
+#f73859 red
+#232931 black
+#ededed white
+*/
+.main-container {
+  padding: 0;
+  margin: 0;
+  background: #232931;
+  height: 100vh;
+}
+
+.nav-bar {
+  position: sticky;
+}
+.selection {
+  user-select: none;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 11vh;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: #f73859;
+}
+nav img.logo {
+  position: absolute;
+  left: 5rem;
+  height: 11vh;
+}
+nav ul {
+  position: absolute;
+
+  display: flex;
+  padding-right: 150px;
+  gap: 80px;
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ededed;
+}
+nav ul li a:hover {
+  text-shadow: 0px 0px 10px black, 0 0 20px black, 0 0 30px black;
+  border-bottom: 1px solid #ededed;
+}
+.burger {
+  display: none;
+  flex-direction: column;
+  padding-top: 25px;
+  gap: 6px;
+  height: 50px;
+  width: 50px;
+}
+.line {
+  background-color: #232931;
+  height: 3px;
+  width: 40px;
+  transition: 0.5s;
+}
+
+.color-yellow {
+  position: absolute;
+  background-color: #f1d18a;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  z-index: -1;
+  top: 10px;
+  right: 10px;
+}
+.color-red {
+  background-color: #f73859;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  z-index: -1;
+}
+.sometext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome-text {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bolder;
+  font-size: 7rem;
+}
+.welcome-text-child {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 5rem;
+}
+.something-cool {
+  position: absolute;
+  top: 340px;
+  background: url(images/ClipartKey_297295.png) no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 40vh;
+  z-index: -1;
+}
+
+.container-child-one {
+  height: 60vh;
+  position: relative;
+  background: #f1d18a;
+}
+.title-one {
+  display: flex;
+  justify-content: center;
+  height: 12vh;
+  background: #f73859;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.title-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #232931;
+}
+.notice-points {
+  padding-top: 50px;
+  padding-left: 110px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border: 1px solid #fac554;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ededed;
+}
+
+.container-child-two {
+  position: relative;
+  height: 80vh;
+  background: #232931;
+}
+.title-two {
+  display: flex;
+  justify-content: center;
+  height: 12vh;
+  background: #f73859;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.links {
+  padding-top: 70px;
+  display: flex;
+  color: #ededed;
+  flex-direction: column;
+}
+.links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.links ul li {
+  list-style: none;
+  width: 30%;
+  height: 100px;
+}
+.links ul li a {
+  text-decoration: none;
+  color: #ededed;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 50px;
+}
+.links ul li a:hover {
+  border-top: 3px solid #fac554;
+  border-bottom: 3px solid #f73859;
+}
+
+.container-child-team {
+  height: 110vh;
+  background: #f1d18a;
+}
+.title-team {
+  display: flex;
+  justify-content: center;
+  height: 12vh;
+  background: #f73859;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.cards {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px black, 0 0 20px black, 0 0 30px black;
+  height: 68vh;
+  width: 40vh;
+  display: flex;
+  justify-content: center;
+  background: #232931;
+}
+.card .card-items {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.card .card-items img {
+  height: 170px;
+  border-radius: 100px;
+  border: 2px solid #f73859;
+}
+
+.card .card-items .social {
+  padding-top: 20px;
+}
+.card .card-items .social img {
+  height: 40px;
+  border: none;
+}
+.card .card-items .social a {
+  text-decoration: none;
+  padding: 30px;
+  color: #ededed;
+}
+
+.card .card-items span {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #f1d18a;
+  font-weight: bolder;
+  align-self: center;
+}
+.card .card-items .social a img:hover {
+  box-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua,
+    inset -5px -5px 40px aqua;
+}
+.card .card-items span.post {
+  font-size: 18px;
+}
+.card:hover {
+  box-shadow: 0px 0px 10px blue, 0 0 20px blue, 0 0 30px black;
+}
+
+.container-child-reach {
+  height: 100vh;
+  background: #232931;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.content .content-text .text {
+  justify-content: center;
+  color: #ededed;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+}
+.content .content-text .text span {
+  font-size: 34px;
+  padding-left: 400px;
+}
+
+@media screen and (max-width: 1080px) {
+  nav ul {
+    gap: 40px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    border-radius: 0px;
+  }
+  nav ul {
+    background: #232931;
+    top: 8vh;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(100%);
+    transition: 0.5s ease-in-out;
+  }
+
+  nav ul li {
+    padding-left: 200px;
+    padding-top: 50px;
+  }
+
+  .burger {
+    display: flex;
+    padding-right: 50px;
+  }
+  .color-any {
+    height: 15rem;
+    width: 15rem;
+  }
+  .sometext {
+    padding-top: 50px;
+  }
+  .welcome-text {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    font-size: 5rem;
+  }
+  .welcome-text-child {
+    font-family: "Shadows Into Light", cursive;
+    color: #ededed;
+    font-size: 2.8rem;
+  }
+  .something-cool {
+    top: 400px;
+  }
+  .container-child-two {
+    height: 100vh;
+  }
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .content .content-text .text {
+    color: #ededed;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 20px;
+  }
+  .content .content-text .text span {
+    font-size: 24px;
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 720px) {
+  nav img.logo {
+    left: 2rem;
+    height: 9vh;
+  }
+  .sometext {
+    padding-top: 170px;
+  }
+  .welcome-text {
+    color: #fac554;
+    font-size: 3rem;
+  }
+  .welcome-text-child {
+    font-size: 2rem;
+  }
+  .links ul li a {
+    font-size: 1.5rem;
+  }
+  .links ul {
+    align-items: center;
+    flex-direction: column;
+  }
+  .links ul li {
+    height: 50px;
+    width: 200px;
+  }
+  .links {
+    padding-top: 30px;
+  }
+  .container-child-team {
+    height: 220vh;
+  }
+  .cards {
+    padding: 50px 0px;
+  }
+  .cards .card {
+    height: 385px;
+  }
+  .card-container {
+    padding: 30px 0px;
+  }
+  .notice-points {
+    padding-left: 60px;
+  }
+  .title-team,
+  .title-one,
+  .title-two {
+    height: 10vh;
+  }
+  .container-child-two {
+    height: 80vh;
+  }
+  .container-child-reach {
+    height: 65vh;
+  }
+  .content .content-text .text span {
+    padding-left: 30px;
+  }
+}
+
+}
+@media screen and (max-widht: 425px) {
+  .content .content-text .text span {
+    padding-left: 10px;
+  }
+}
+.com{width:12%;border-radius:48%;border-style:solid;border-color:gold;margin:1.8%;}
+.top{
+  background-image:url('https://www.hackchennai.in/images/illus.svg');
+  background-attachment: fixed;
+  opacity:100%;
+}
+
+
+.bca{
+  margin-top:25px; 
+    width:100%;
+}
