@@ -409,11 +409,12 @@ tr:nth-child(even) {
     height: 80vh;
   }
   .container-child-reach {
-    height: 65vh;
+    height: 95vh;
   }
   .content .content-text .text span {
     padding-left: 30px;
   }
+.com{width:13%;border-radius:48%;border-style:solid;border-color:gold;margin:1.8%;}
 }
 
 }
