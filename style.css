@@ -118,7 +118,7 @@ nav ul li a:hover {
 }
 
 .container-child-one {
-  height: 60vh;
+  height: 70vh;
   position: relative;
   background: #f1d18a;
 }
@@ -268,7 +268,7 @@ tr:nth-child(even) {
 }
 
 .container-child-reach {
-  height: 100vh;
+  height: 110vh;
   background: #232931;
 }
 .content {
@@ -340,7 +340,7 @@ tr:nth-child(even) {
     top: 400px;
   }
   .container-child-two {
-    height: 100vh;
+    height: 103vh;
   }
   .content {
     padding-left: 30px;
