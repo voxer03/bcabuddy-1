@@ -386,7 +386,7 @@ tr:nth-child(even) {
     padding-top: 30px;
   }
   .container-child-team {
-    height: 220vh;
+    height: 250vh;
   }
   .cards {
     padding: 50px 0px;
@@ -406,7 +406,7 @@ tr:nth-child(even) {
     height: 10vh;
   }
   .container-child-two {
-    height: 95vh;
+    height: 105vh;
   }
   .container-child-reach {
     height: 105vh;
