@@ -348,7 +348,7 @@ tr:nth-child(even) {
   }
   .content .content-text .text {
     color: #ededed;
-    font-family: "Shadows Into Light", cursive;
+    font-family: "Poppins",sans serif;
     font-size: 20px;
   }
   .content .content-text .text span {
