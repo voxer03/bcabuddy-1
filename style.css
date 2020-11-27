@@ -103,7 +103,7 @@ nav ul li a:hover {
   font-weight: bolder;
   font-size: 7rem;
 }
-.welcome-text-child {
+.welcome-text-{
   font-family: "Shadows Into Light", cursive;
   font-size: 5rem;
 }
@@ -159,7 +159,7 @@ tr:nth-child(even) {
 
 .container-child-two {
   position: relative;
-  height: 80vh;
+  height: 78vh;
   background: #232931;
 }
 .title-two {
