@@ -201,6 +201,7 @@ tr:nth-child(even) {
   height: 110vh;
   background: #f1d18a;
 }
+
 .title-team {
   display: flex;
   justify-content: center;
@@ -266,11 +267,28 @@ tr:nth-child(even) {
 .card:hover {
   box-shadow: 0px 0px 10px blue, 0 0 20px blue, 0 0 30px black;
 }
+.container-child-sponsors{
+  height: 50vh;
+  background: white;
+  
+}
+.sponsors {
+  justify-content: center;
 
+}
 .container-child-reach {
-  height: 100vh;
+  height: 120vh;
   background: #232931;
 }
+.container-child-visit{
+  height: 50vh;
+  background:#fac554;
+}
+.sponsors{
+  display:flex;
+  
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -406,7 +424,7 @@ tr:nth-child(even) {
     height: 10vh;
   }
   .container-child-two {
-    height: 95vh;
+    height: 75vh;
   }
   .container-child-reach {
     height: 128vh;
@@ -414,7 +432,25 @@ tr:nth-child(even) {
   .content .content-text .text span {
     padding-left: 30px;
   }
-.com{width:13%;border-radius:48%;border-style:solid;border-color:gold;margin:1.8%;}
+  .sponsors{
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-child-visit {
+    height: 60vh;
+  }
+  .container-child-visit .content{
+    padding-top:30px;
+  }
+  .container-child-sponsors{
+    height:70vh;
+  }
+  img.com{
+    width:40%;
+  }
 }
 
 }
